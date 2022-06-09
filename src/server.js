@@ -1,5 +1,5 @@
 import express, { json, urlencoded } from 'express';
-import db from './db/index.js';
+import db from './db.js';
 
 const app = express();
 
